@@ -9,3 +9,7 @@ class BonusDrink
     calc_bottles(amount + bonus, bonus + amari)
   end
 end
+
+if $0 == __FILE__
+  p BonusDrink.total_count_for(100)
+end
